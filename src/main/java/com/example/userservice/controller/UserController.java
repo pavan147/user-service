@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("/status-check")
     public String statusCheck(){
-        return "Working User Service.........hep namdev";
+        return "Working User Service........";
     }
 }
 
